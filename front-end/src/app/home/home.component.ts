@@ -174,7 +174,7 @@ export class HomeComponent implements OnInit {
   }
   
   openSnackBar(message: string) {
-    this._snackBar.open(message);
+    this._snackBar.open(message, undefined, {duration: 3000});
   }
 
 }
